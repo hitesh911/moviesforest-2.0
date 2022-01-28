@@ -44,7 +44,7 @@
             <img src="{{posts.logo_link}}" class="card-img-top" alt="Logo not avalable yet">
             <div class="card-body">
                 {% comment %} display title using p tag {% endcomment %}
-                <p class="card-text">{{posts.title}}</p>
+                <p class="card-text">{{posts.title|slice:":20"}}...</p>
                 {% comment %} making a button for download page with a tag {% endcomment %}
                 <div class="d-flex justify-content-between align-items-center">
                     <div>
