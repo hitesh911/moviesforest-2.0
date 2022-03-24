@@ -459,6 +459,9 @@ html * {
         width: 21rem;
 
     }
+    .movies_column{
+        width: 16.33% !important;
+    }
 }
 
 @media only screen and (max-width: 712px) {
