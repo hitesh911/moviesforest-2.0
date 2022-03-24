@@ -24,7 +24,9 @@ html * {
 
 
 }
-
+.movies_column{
+    max_width: 16.33%;
+}
 
 
 
