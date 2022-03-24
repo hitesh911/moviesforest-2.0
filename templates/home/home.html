@@ -6,7 +6,6 @@
 {% load webpush_notifications %}
 {% block body %}
 
-
 {% comment %}---------------------- this is the msg to ask people to subscribe ----------------------- {% endcomment %}
 <div class="position-fixed bottom-0 end-0 p-3 " style="z-index: 5">
     {% webpush_button with_class=" btn btn-danger" %}
@@ -38,7 +37,7 @@
 {% comment %} main div to show search result {% endcomment %}
 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 mt-1 mx-2">
     {% for posts in all_movies %}
-    <div class="col mb-3">
+    <div class="movies_column col mb-3">
         <div class="card shadow-sm p-3">
             {% comment %} display logo with img tag {% endcomment %}
             <img src="{{posts.logo_link}}" class="card-img-top" alt="Logo not avalable yet">
