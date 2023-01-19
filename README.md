@@ -1,4 +1,4 @@
-# MOVIES_FOREST
+# MOVIES_FOREST 2.0
 This project has old versions [movies forest](https://github.com/hitesh911/movies_forest) means change in design and some freatures might not there
 ## Introduction
 
@@ -38,7 +38,7 @@ If your project is already in an existing python3 virtualenv first install djang
 And then run the `django-admin.py` command to start the new project:
 
     $ django-admin.py startproject \
-      --template=https://github.com/hitesh911/modified-moviesforest \
+      --template=https://github.com/hitesh911/moviesforest-2.0 \
       --extension=py,md \
       <project_name>
       
